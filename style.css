@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0d0d;
+}
+
+.calc{
+    /* background-color: #b8b5b5; */
+    height: 70vh;
+    border-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px white, 
+                inset 5px 5px 12px rgba(0, 0, 0, 0.14);
+    display: grid;
+    grid-template-columns: repeat(4, 60px);   
+}
+.calc input{
+    grid-column: span 4;
+    height: 60px;
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: inset -5px -5px 12px white, 
+                inset 5px 5px 12px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    color: #ff6525;
+    font-size: 2rem;
+    text-align: right;
+    margin-top: 20px;
+}
+input::placeholder{
+    color: #ff6525;
+}
+button{
+    height: 40px;
+    border-radius: 50px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px white, 
+                inset 5px 5px 12px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin: 0 1px;
+}
+
+.equalto{
+    width: 120px;
+    height: 45px;
+}
+
+.Ajay{
+    color: #ff6525;
+    font-weight: bolder;
+}
